@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel ="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  
+</head>
+<body>
+
+  <!-- Rating state start -->
+  <div class = "bigGuns">
+    <article class = "first-container">
+      <img src="/images/icon-star.svg">
+      <h1>How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <div class="button-container">
+        <button class  = "regular-button">1</button>
+        <button class  = "regular-button">2</button>
+        <button class  = "regular-button">3</button>
+        <button class  = "regular-button">4</button>
+        <button class  = "regular-button">5</button>
+      </div>
+      <button class="submit-button" id ="submit">Submit</button>
+    </article>
+    <article class ="second-container hidden">
+      <img src="images/illustration-thank-you.svg">
+      <p >You selected <span id ="rating">1</span> out of 5 </p>
+
+      <h2>Thank you!</h2>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+      <button class="submit-button" id="rate-again">Rate Again</button>
+    </article>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
